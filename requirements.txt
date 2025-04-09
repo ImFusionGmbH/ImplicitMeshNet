@@ -1,0 +1,13 @@
+fire==0.7.0
+matplotlib==3.9.3
+numpy>=1.23
+scipy==1.14.1
+SimpleITK==2.4.0
+tensorboard==2.19.0
+torch==2.6.0
+torch-geometric==2.6.1
+tqdm==4.67.1
+trimesh==4.5.3
+ninja==1.11.1
+vtk==9.4.0
+torch==2.6.0
