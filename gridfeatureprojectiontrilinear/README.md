@@ -74,26 +74,6 @@ The implementation uses trilinear interpolation to distribute vertex features to
 
 This approach ensures smooth feature distribution compared to nearest-neighbor assignment.
 
-## Performance Comparison
-
-### CUDA Implementation (NVIDIA GPUs):
-- For a mesh with 10,000 vertices and 16 feature channels:
-  - PyTorch: ~500ms
-  - CUDA: ~5ms (100x speedup)
-
-- For a mesh with 100,000 vertices and 16 feature channels:
-  - PyTorch: ~5s
-  - CUDA: ~50ms (100x speedup)
-
-### Metal Implementation (Apple Silicon):
-- For a mesh with 10,000 vertices and 16 feature channels:
-  - PyTorch: ~400ms
-  - Metal: ~8ms (50x speedup)
-
-- For a mesh with 100,000 vertices and 16 feature channels:
-  - PyTorch: ~4s
-  - Metal: ~80ms (50x speedup)
-
 ## Platform-Specific Notes
 
 ### CUDA (NVIDIA GPUs)
