@@ -7,7 +7,7 @@ Deep Implicit Neural Representations for End-to-End Anatomical Shape Estimation 
 We present an end-to-end approach for anatomical shape estimation from volumetric images using deep implicit neural
 representations. Our neural network directly reconstructs shapes as 3D meshes and is trained on voxel-based segmentation
 maps by utilizing a deep signed distance field transform, eliminating the need for ground truth meshes. Evaluated on
-cardiac CT scans, our method achieves a Dice score of 0.87 for the extraction of the left atrium and ventricle, while
+cardiac CT scans, our method achieves a Dice score of 0.92 for the extraction of the left atrium and ventricle, while
 maintaining anatomical fidelity. This enables more accurate cardiac modeling for visualization and downstream analysis
 in clinical settings.
 
